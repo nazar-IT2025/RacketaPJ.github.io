@@ -90,6 +90,7 @@
     height: 200px;
     width: 352px;
     padding: 50px 0 0 29px;
+    position: relative;
 }
 .bonus-background-2{
     width: 352px;
@@ -119,8 +120,8 @@
     font-size: 28px;
     font-family: Inter, sans-serif;
     position: absolute;
-    top: 49px;
-    left: 990px;
+    top: 25px;
+    left: 100px;
 }
 
 #bold-text-2{
@@ -339,6 +340,7 @@
     height: 200px;
     width: 352px;
     padding: 50px 0 0 29px;
+    position: relative;
 }
 .bonus-background-3{
     width: 352px;
@@ -368,8 +370,8 @@
     font-size: 28px;
     font-family: Inter, sans-serif;
     position: absolute;
-    top: 0;
-    left: 990px;
+    top: 25px;
+    left: 100px;
 }
 
 #bold-text-3{
@@ -428,40 +430,57 @@
 }
 .img-container-from-section5-part4{
     width: 118px;
-    height: 103px;
+    height: 60px;
     margin-top: 5px;
+    position: relative;
 }
 #img_camera5-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -30px;
 }
 #img_landscape-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -40px;
 }
 #img_instagram2-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -40px;
 }
 #img_people-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -40px;
 }
 #img_camera6-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -30px;
 }
 #img_heart-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -20px;
 }
 #img_book-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -30px;
 }
 #img_traffic-from-section5-part4{
     width: 118px;
     height: 103px;
+    position: absolute;
+    top: -30px;
 }
 .text-in-the-elements-from-section5-part4-1{
     color: var(--text);

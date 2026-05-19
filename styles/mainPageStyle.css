@@ -27,13 +27,21 @@ body{
     max-height: 714px;
     background-color: var(--background);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+}
+.all-objects-from-main-page{
+    width: 1500px;
+    height: 714px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
 }
 .elements-from-main-page{
     width: 800px;
-    height: 100%;
+    height: 714px;
 }
 #top-text{
     width: 750px;

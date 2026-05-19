@@ -60,6 +60,7 @@
     height: 120px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 #number1-from-section7-part1 {
     width: 75px;
@@ -75,8 +76,8 @@
     font-weight: 700;
     font-family: inter, sans-serif;
     position: absolute;
-    top: 260px;
-    left: 345px
+    top: -30px;
+    left: 15px
 }
 #number2-from-section7-part1 {
     width: 75px;
@@ -92,8 +93,8 @@
     font-weight: 700;
     font-family: inter, sans-serif;
     position: absolute;
-    top: 260px;
-    left: 645px;
+    top: -30px;
+    left: 15px;
 }
 #number3-from-section7-part1 {
     width: 75px;
@@ -109,8 +110,8 @@
     font-weight: 700;
     font-family: inter, sans-serif;
     position: absolute;
-    top: 260px;
-    left: 945px
+    top: -30px;
+    left: 15px
 }
 
 
@@ -124,22 +125,22 @@
     width: 110px;
     height: 100px;
     position: absolute;
-    top: 285px;
-    left: 465px;
+    top: -20px;
+    left: 140px;
 }
 #img_check-from-section7-part1{
     width: 120px;
     height: 112px;
     position: absolute;
-    top: 285px;
-    left: 765px;
+    top: -20px;
+    left: 140px;
 }
 #img_wallet-from-section7-part1{
     width: 120px;
     height: 112px;
     position: absolute;
-    top: 285px;
-    left: 1060px;
+    top: -20px;
+    left: 140px;
 }
 .text-in-the-elements-from-section7-part1-1{
     color: var(--primary);

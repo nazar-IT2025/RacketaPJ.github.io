@@ -83,6 +83,7 @@
     height: 200px;
     width: 352px;
     padding: 50px 0 0 29px;
+    position: relative;
 }
 .bonus-background-4{
     width: 352px;
@@ -112,8 +113,8 @@
     font-size: 28px;
     font-family: Inter, sans-serif;
     position: absolute;
-    top: 49px;
-    left: 990px;
+    top: 25px;
+    left: 100px;
 }
 
 #bold-text-4{

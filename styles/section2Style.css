@@ -23,6 +23,13 @@
     height: 353px;
     background-color: var(--background2);
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-objects-from-section2{
+    width: 1500px;
+    height: 353px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }

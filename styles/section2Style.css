@@ -1,0 +1,83 @@
+:root {
+    --primary: #E74097;
+    --secondary: #FFEDBC;
+    --background: #18181A;
+    --background2: #3E3238;
+    --text: #FFFFFF;
+}
+@font-face {
+    font-family: "bitcrusher";
+    src: url('../fonts/bitcrusher-condensed-bd.otf') format("opentype");
+}
+@font-face {
+    font-family: "inter";
+    src: url('../fonts/Inter_18pt-Regular.ttf') format("opentype");
+}
+@font-face {
+    font-family: "bebas-neue";
+    src: url('../fonts/BebasNeue-Regular.otf') format("opentype");
+}
+
+.section2{
+    width: 100%;
+    height: 353px;
+    background-color: var(--background2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.elements-from-section2{
+    width: 375px;
+    height: 261px;
+    background-color: #010706;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.img-container-from-section2{
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary);
+    border-radius: 100%;
+    position: relative;
+}
+#img_camera-from-section2{
+    width: 125px;
+    height: 117px;
+    position: absolute;
+    left: 12px;
+
+}
+
+#img_headphones-from-section2{
+    width: 115px;
+    height: 117px;
+    position: absolute;
+    left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img_list-from-section2{
+    width: 125px;
+    height: 117px;
+    position: absolute;
+    left: 10px;
+}
+.text-in-the-elements-from-section2-1{
+    color: var(--text);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+}
+.text-in-the-elements-from-section2-2{
+    color: #B3B5B4;
+    text-wrap: balance;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    padding: 0 20px 0 20px;
+}

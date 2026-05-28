@@ -70,10 +70,73 @@
     height: 446px;
     position: relative;
 }
-#img-woman2{
+#img-woman2 {
     width: 423px;
     height: 570px;
     position: absolute;
     top: -124px;
     left: 50px;
+}
+@media(max-width: 768px) {
+    .section6{
+        width: 100%;
+        height: 1300px;
+        background-color: var(--background2);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .text-element-from-section6{
+        width: 400px;
+        height: 248px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #title-section6{
+        color: var(--text);
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 120%;
+        font-family: bebas-neue-cyrillic, sans-serif;
+        margin: 0;
+    }
+    .all-components-from-section6{
+        width: 500px;
+        height: 1020px;
+        background-color: var(--background);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .element-from-section6{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 100px;
+    }
+    .text-in-the-element-from-section6{
+        color: var(--text);
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: inter, sans-serif;
+        text-align: center;
+    }
+    .img-container-from-section6{
+        width: 500px;
+        height: auto;
+        position: relative;
+    }
+    #img-woman2 {
+        width: 423px;
+        height: 570px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
 }

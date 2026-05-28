@@ -50,7 +50,7 @@
 
 }
 .all-elements-section3{
-    width: 1500px;
+    width: 1300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -97,4 +97,82 @@
     line-height: 20px;
     padding: 0 20px;
     font-family: Inter, sans-serif;
+}
+@media(max-width: 768px) {
+    .section3{
+        height: 1100px;
+        width: 100%;
+        background-color: var(--background);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text-element-from-section3{
+        width: 100%;
+        height: 168px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #title-section3{
+        height: 48px;
+        width: auto;
+        color: var(--text);
+        margin: 0;
+        font-weight: 400;
+        font-size: 40px;
+        font-family: tt-commons-regular, sans-serif;
+
+    }
+    .all-elements-section3{
+        width: 600px;
+        height: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .elements-from-section3 {
+        width: 272px;
+        height: 309px;
+        background-color: var(--background2);
+        border-radius: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img-container-from-section3{
+        width: 110px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .img-container-from-section3 img{
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: -30px;
+    }
+
+    .text-in-the-elements-from-section3-1{
+        color: var(--text);
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0 25px;
+        font-family: Inter, sans-serif;
+
+    }
+    .text-in-the-elements-from-section3-2{
+        color: #B3B5B4;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 20px;
+        font-family: Inter, sans-serif;
+    }
 }
